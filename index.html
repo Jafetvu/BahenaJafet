@@ -42,7 +42,19 @@
             </tr>
             </tr>
 		</table>
+        <div> 
+            <button> Decir hola! </button>
+        </div>
+        
 	    <a href = "https:/github.com/Jafetvu/BahenaJafet"> Ir al link repositorio </a>
 
 	</body>
+    <script> 
+        const mybutton = document.getElementsByTagName("button");
+        function decirHola(){
+            console.log("Hola mundo")
+        }
+
+        mybutton.item(0).addEventListener("click",decirHola)
+    </script>
 </html>
